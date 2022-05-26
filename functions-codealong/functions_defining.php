@@ -16,8 +16,10 @@ function say_hello_to($word){
 say_hello_to("World");//calling say_hello_to function
 say_hello_to("Everyone");//calling say_hello_to function
 
-say_hello_loudly(){
-  echo "HELLO WORLD!<br/>"//define say_hello_loudly
+say_hello_loudly();
+
+say_hello_loudly() {
+echo "HELLO WORLD!<br/>";//define say_hello_loudly
 }
 
 // say_hello_loudly(){
