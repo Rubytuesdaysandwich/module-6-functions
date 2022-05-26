@@ -18,8 +18,8 @@ say_hello_to("Everyone");//calling say_hello_to function
 
 say_hello_loudly();
 
-say_hello_loudly() {
-echo "HELLO WORLD!<br/>";//define say_hello_loudly
+function say_hello_loudly(){
+  echo "HELLO WORLD!<br/>";
 }
 
 // say_hello_loudly(){
