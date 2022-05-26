@@ -5,7 +5,9 @@
   </head>
   <body>
 <?php
-
+function say_hello(){
+    echo "Hello World! <br>"
+}
 
 
 
