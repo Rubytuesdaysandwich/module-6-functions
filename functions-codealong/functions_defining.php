@@ -5,29 +5,25 @@
   </head>
   <body>
 <?php
-function say_hello(){
+function say_hello(){//define say_hello
   echo "Hello World! <br/>";
 }
 say_hello();//calling say hello function
 
 function say_hello_to($word){
-  echo "Hello {$word}!<br/>";
+  echo "Hello {$word}!<br/>";//define say_hello_to
 }
-say_hello_to("World");
-say_hello_to("Everyone");
+say_hello_to("World");//calling say_hello_to function
+say_hello_to("Everyone");//calling say_hello_to function
 
 say_hello_loudly(){
-  echo "HELLO WORLD!<br/>"
+  echo "HELLO WORLD!<br/>"//define say_hello_loudly
 }
 
 // say_hello_loudly(){
 //   echo "We can't redefine a function.";
 // }
 ?>
-
-
-
-
 
   </body>
 </html>
