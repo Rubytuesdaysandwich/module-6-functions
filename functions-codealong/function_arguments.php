@@ -18,7 +18,9 @@
     }
     
     better_hello("Hello",$name,"!");
-    better_hello("Greetings",$name,"!");
+    better_hello("Greetings",$name,"!!!");
+
+    better_hello("Greetings",$name, null);
     ?>
   </body>
 </html>
