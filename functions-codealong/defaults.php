@@ -12,7 +12,7 @@ return " the color of the room is {$color}.<br/>";
 }
 echo paint();
 //if it does not receive a color it will use the default which has been assigned to $color in the parameters
-echo paint ("bredroom","blue");
+echo paint ("bedroom","blue");
 echo paint ("bedroom",null);
 echo paint ("bedroom",null)
 echo paint ("bedroom");
