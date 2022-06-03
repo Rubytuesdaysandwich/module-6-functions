@@ -8,24 +8,26 @@
   </head>
   <body>
      part 1:
+     <br/>
       <?php
-        function hello(){
-          echo "Hello, World!";
+        function hello(){//declare hello function
+          echo "Hello, World!";//send Hello, World! to the browser
         }
-        hello();
+        hello();//Calling the function hello
         ?>
         <br/>
         part 2:
+        <br/>
         <?php
         function rect_area ($length , $width){//declaring function length and width
           $area =$length * $width;
           echo "A rectangle of length {$length} and width {$width} has an area of {$area}.";//outputting result to the browser
-          return;
         }
       rect_area(5,6);//calling function  
         ?>
-<br/>
+        <br/>
         part 3:
+        <br/>
         <?php
         function str_var($str1="Hello",$str2="Beautiful",$str3="world",$str4="!"){//declaring string variables
           echo "<table border =\"2\" style='border-collapse: collapse'>";//table
@@ -42,18 +44,33 @@
         ?>
       <br/>
       part 4:
+      <br/>
       <?php
        function hola($arg1){//declared hola function and gave it an argument
-        echo "Hello, World!";
+       
+        echo $arg1;
+     
       }
-      hola("hi");//calling hola function
       
       function area_of_rect ($l , $w){//declaring function length and width
         $a =$l * $w;
-        echo "A rectangle of length {$l} and width {$w} has an area of {$a}.";//outputting result to the browser
-        return;
+        $result="A rectangle of length {$l} and width {$w} has an area of {$a}.";//outputting result to the browser
+        hola($result);//calling hola function
       }
-      area_of_rect(5,6);//calling function  
+      area_of_rect(5,6);//calling  area_of_rect function  
+
+      ?>
+      <br/>
+      part5:
+      <br/>
+      <?php
+      function house($type="Apartment",$color="white",$rooms="1 room",$bath="1 bath", $size="1000ft"){//declared function and assigned perimeters
+        echo "The user has selected {$type} {$color} {$rooms} {$bath} {$size}";//this echos to the browser based on what the user wants in a house
+
+      }
+      house();
+      echo"<br/>";//returns the default values
+      house("condo","red","5 rooms","2 bath","5000ft");//calling the function house with 3 arguments
       
       ?>
 
