@@ -8,7 +8,7 @@
 <?php
 //*no value assigned can make it mandatory and that will make it not work properly
 function paint($room="office",$color="red") {
-return " the color of the room is {$color}.<br/>";
+return " the color of the room is {$color}.<br/>";//return sending the value outside the function
 }
 echo paint();
 //if it does not receive a color it will use the default which has been assigned to $color in the parameters
