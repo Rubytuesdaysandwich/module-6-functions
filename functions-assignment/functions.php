@@ -43,11 +43,17 @@
       <br/>
       part 4:
       <?php
-       function (){
+       function hola($arg1){
         echo "Hello, World!";
       }
-      hello();
+      hola("hi");
       
+      function area_of_rect ($length , $width){//declaring function length and width
+        $area =$length * $width;
+        echo "A rectangle of length {$length} and width {$width} has an area of {$area}.";//outputting result to the browser
+        return;
+      }
+      area_of_rect(5,6);//calling function  
       
       ?>
 
