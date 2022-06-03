@@ -24,16 +24,32 @@
         }
       rect_area(5,6);//calling function  
         ?>
-
+<br/>
         part 3:
         <?php
-        function str_var($str1,$str2,$str3,$str4){//declaring string variables
-
+        function str_var($str1="Hello",$str2="Beautiful",$str3="world",$str4="!"){//declaring string variables
+          echo "<table border =\"2\" style='border-collapse: collapse'>";//table
+          echo  "<tr>";//table row
+            echo  "<td>$str1</td>";//table data box
+            echo  "<td>$str2</td>";//table data box
+            echo  "<td>$str3</td>";//table data box
+            echo  "<td>$str4</td>";//table data box
+          echo  "</tr>" ;//table row
+         echo "</table>";//table end
         }
-        
-        
+        str_var();//calling function with default values
+        str_var('Hello','how', 'are', 'you');//calling function with values passed to the function
         ?>
-
+      <br/>
+      part 4:
+      <?php
+       function (){
+        echo "Hello, World!";
+      }
+      hello();
+      
+      
+      ?>
 
   </body>
 </html>
