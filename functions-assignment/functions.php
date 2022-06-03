@@ -43,10 +43,10 @@
       <br/>
       part 4:
       <?php
-       function hola($arg1){
+       function hola($arg1){//declared hola function and gave it an argument
         echo "Hello, World!";
       }
-      hola("hi");
+      hola("hi");//calling hola function
       
       function area_of_rect ($l , $w){//declaring function length and width
         $a =$l * $w;
