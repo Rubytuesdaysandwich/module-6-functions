@@ -7,8 +7,8 @@
     <title>Functions: assignment</title>
   </head>
   <body>
-     part 1:
-     <br/>
+        part 1:
+        <br/>
       <?php
         function hello(){//declare hello function
           echo "Hello, World!";//send Hello, World! to the browser
@@ -37,7 +37,7 @@
             echo  "<td>$str3</td>";//table data box
             echo  "<td>$str4</td>";//table data box
           echo  "</tr>" ;//table row
-         echo "</table>";//table end
+          echo "</table>";//table end
         }
         str_var();//calling function with default values
         str_var('Hello','how', 'are', 'you');//calling function with values passed to the function
@@ -46,10 +46,9 @@
       part 4:
       <br/>
       <?php
-       function hola($arg1){//declared hola function and gave it an argument
-       
+      function hola($arg1){//declared hola function and gave it an argument
+      
         echo $arg1;
-     
       }
       
       function area_of_rect ($l , $w){//declaring function length and width
