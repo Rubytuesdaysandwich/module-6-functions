@@ -37,11 +37,20 @@ switch(($year - 4 )%12){
 
 
 }
-$zodiac = chinese_zodiac(2013);//being applied to the $zodiac variable.//!the variable not required can be done like the one below. 
+$zodiac = chinese_zodiac(2013);//being applied to the $zodiac variable.//!the variable not required can be done like the one below 2027. 
 echo "2013 is the year of the {$zodiac}.<br/>";
 echo "2027 is the year of the ". chinese_zodiac(2027)."<br/>";//this one is not using a variable it is using the function name and concatenating it.
 ?>
+<br/>
+<?php
+function better_hello($greeting, $target, $punct){//Defining better hello function with 3 arguments
+    return $greeting . " " . $target . $punct . "<br />";//use return to send the result outside the function allowing it to be echoed outside the function which can be cleaner way of coding it.
+}
 
+echo better_hello("Hello","John Doe","!");
+
+//!leave echo out of your functions use return instead than do what you need to with it outside the function.
+?>
 
 
   </body>
