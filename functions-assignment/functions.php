@@ -48,9 +48,9 @@
       }
       hola("hi");
       
-      function area_of_rect ($length , $width){//declaring function length and width
-        $area =$length * $width;
-        echo "A rectangle of length {$length} and width {$width} has an area of {$area}.";//outputting result to the browser
+      function area_of_rect ($l , $w){//declaring function length and width
+        $a =$l * $w;
+        echo "A rectangle of length {$l} and width {$w} has an area of {$a}.";//outputting result to the browser
         return;
       }
       area_of_rect(5,6);//calling function  
